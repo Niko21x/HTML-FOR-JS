@@ -1,0 +1,196 @@
+
+body {
+background-color: black;
+max-width: 100%;
+}
+.logo-boton2 {
+max-width: 100%;
+flex: 1;
+
+.slogan2 {
+max-width: 100%;
+color: white;
+font-family: $my-font;
+font-size: 17px;
+font-weight: 400;
+position: relative;
+left: 30px;
+@include mobile {
+max-width: 100%;
+display: none;
+}
+}
+
+& img {
+max-width: 100%;
+width: 100px;
+position: relative;
+left: 55px;
+@include mobile {
+max-width: 100%;
+width: 100px;
+position: relative;
+left:-5px;
+
+}
+}
+
+}
+
+
+
+
+
+
+.menu-2 {
+max-width: 100%;
+width: 600px;
+position: relative;
+left: 380px;
+bottom: 75px; 
+& :hover {
+color: rgb(116, 7, 241);
+}
+@include mobile {
+max-width: 100%;
+position: relative;
+left: 220px;
+top: -65px;
+
+}
+
+}
+
+
+
+.gohan-1 {
+max-width: 100%;
+width: 100px;
+position: relative;
+left: 1140px;
+bottom: 150px;
+@include mobile {
+max-width: 100%;
+display: none;
+}
+}
+
+
+
+
+.text-block {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(30, 0, 255, .2);
+@include mobile {
+position: relative;
+bottom: 40px;
+font-size: 20px;
+}
+}
+.text-block-libre {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(0, 247, 82, 0.781);
+@include mobile {
+max-width: 100%;
+position: relative;
+bottom: 10px;
+font-size: 20px;
+}
+}
+.text-block-casa {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(255, 0, 0, 0.781);
+@include mobile {
+position: relative;
+bottom: 10px;
+font-size: 20px;
+}
+}
+.text-block-contacto {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(255, 255, 255, 0.781);
+@include mobile {
+position: relative;
+bottom: 40px;
+font-size: 20px;
+}
+}
+
+.text-block-preguntas {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(244, 248, 5, 0.781);
+@include mobile {
+position: relative;
+bottom: 20px;
+font-size: 20px;
+margin-bottom: 120px
+}
+}
+.text-block-playlist {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(0, 222, 238, 0.781);
+@include mobile {
+position: relative;
+bottom: 20px;
+font-size: 20px;
+margin-bottom: 120px
+}
+}
+.navbar-brand {
+max-width: 100%;
+color: orange;
+}

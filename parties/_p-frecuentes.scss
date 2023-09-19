@@ -1,0 +1,63 @@
+.menu_principal-pr li a:hover {
+color: rgb(222, 245, 13);
+}
+
+
+
+
+.accordion {
+max-width: 100%;
+position: relative;
+bottom: 70px;
+
+}
+
+.accordion-button {
+max-width: 100%;
+color: rgb(255, 255, 255);
+box-shadow: -1px -1px 5px 5px rgb(245, 245, 245);
+background-color: black;
+
+}
+
+#carouselExample {
+display: flex;
+justify-content: center;
+width: 800px;
+height: 500px;
+position: relative;
+left: 250px;
+max-width: 100%;
+
+@include mobile  {
+height: 400px;
+width: 380px;
+position: relative;
+left: -1px;
+}
+
+
+.carousel-inner {
+max-width: 100%;
+text-align: center;
+justify-content: center;
+.carousel-item{ 
+max-width: 100%;
+& img {
+width: 590px;
+height: 500px;
+position: relative;
+left: 110px;
+bottom:50px;
+
+@include mobile {
+width:300px;
+height: 300px;
+position: relative;
+left: 40px;
+bottom: -20px;
+}
+}
+}
+}
+}
